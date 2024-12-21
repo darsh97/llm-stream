@@ -4,15 +4,13 @@
 
 The API is boiler plate reference to handle streaming responses and using CustomLLM class that langchain provides
   
-API Endpoints
-  Generate Poem
     Endpoint: /api/generate/{poem_topic}
     Method: GET
     Description: Generates a poem based on the specified theme.
     Example
     To generate a "happiness" themed poem with streaming enabled, you can use the following URL:
 
-http://localhost:8000/api/generate/happiness?stream=true
+    http://localhost:8000/api/generate/happiness?stream=true
 
 
 To consume the streaming API, you can use the following code:
