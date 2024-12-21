@@ -3,25 +3,14 @@
 ## Overview
 
 The API is boiler plate reference to handle streaming responses and using CustomLLM class that langchain provides
-
-How to Run the Server
-  To run the FastAPI server, follow these steps:
-
-  Install dependencies: Ensure you have Python and pip installed. Then, install the required dependencies by running:
-
-  pip install -r requirements.txt
-  Run the server: Start the FastAPI server using the following command:
-
-  uvicorn main:app --reload
-  By default, the server will run on http://localhost:8000.
   
-  API Endpoints
+API Endpoints
   Generate Poem
-  Endpoint: /api/generate/{poem_topic}
-  Method: GET
-  Description: Generates a poem based on the specified theme.
-  Example
-  To generate a "happiness" themed poem with streaming enabled, you can use the following URL:
+    Endpoint: /api/generate/{poem_topic}
+    Method: GET
+    Description: Generates a poem based on the specified theme.
+    Example
+    To generate a "happiness" themed poem with streaming enabled, you can use the following URL:
 
 http://localhost:8000/api/generate/happiness?stream=true
 
